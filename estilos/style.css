@@ -83,7 +83,7 @@ div.campo > span {
     color: white;
     font-size: 2em;
     width: 40px;
-    padding: 5px;
+    padding: 6px;
 }
 
 div.campo > input {
@@ -125,6 +125,7 @@ a.botao {
     height: 40px;
     background-color: white;
     border-radius: 8px;
+    box-shadow: 0px 1px 1px #315c5a21;
     margin-top: 5px;
     padding-top: 6px;
     text-decoration: none;
