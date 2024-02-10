@@ -12,8 +12,8 @@ Grandes Telas: acima de 1200px
 */
 
 @media screen and (max-width: 767px) {
-    input#isenha {
-        margin-top: 13px;
+    div.campo > span {
+        padding: 4px;
     }
 }
 
