@@ -11,6 +11,12 @@ Desktop: de 992px até 1200px
 Grandes Telas: acima de 1200px
 */
 
+@media screen and (max-width: 767px) {
+    input#isenha {
+        margin-top: 13px;
+    }
+}
+
 @media screen and (min-width: 768px) and (max-width: 992px) {
     /*CONFIGURAÇÃO PARA TABLET*/
     body {
@@ -33,6 +39,11 @@ Grandes Telas: acima de 1200px
         float: right;
         width: 70%;
     }
+
+    input#isenha {
+        margin-top: 13px;
+    }
+
 }
 
 @media screen and (min-width: 992px) {
@@ -64,5 +75,17 @@ Grandes Telas: acima de 1200px
     div#formulario > p {
         font-size: 1em;
         margin: 20px 0px;
+    }
+
+    div.campo {
+        padding-top: 1px;
+    }
+
+    input#ilogin {
+        margin-top: 13px;
+    }
+
+    input#isenha {
+        margin-top: 12px;
     }
 }
